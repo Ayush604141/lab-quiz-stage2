@@ -1,0 +1,67 @@
+/* Styling the components */
+html{
+  background-color: royalblue;
+}
+.App{
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.questionBox{
+  height: 75vh;
+  width: 75vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #fefefe;
+  border-radius: 40px;
+  box-shadow: 50px grey;
+}
+.questionNumber{
+  position: relative;
+  left: 5%;
+  bottom: 15%;
+  align-self: flex-start;
+}
+.Options{
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 5rem;
+  row-gap: 5rem;
+}
+.Options button{
+  height: 5vh;
+  width: 25vw;
+  border-radius: 40px;
+  border: 1px solid lightblue;
+  align-self: auto;
+  background-color: aqua;
+  color: black;
+  transition: ease-in-out 0.3s;
+}
+.Options button:hover{
+  transform: scale(1.1);
+  background-color: lightblue;
+}
+
+.navigationButtons{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.navigationButtons button{
+  height: 5vh;
+  width: 15Vw;
+  border-radius: 40px;
+  background-color: green;
+}
+
+.navigationButtons button:first-of-type{
+  background-color: royalblue;
+}
+
+.navigationButtons button:last-of-type{
+  background-color: rgba(194, 35, 35, 0.856);
+}
